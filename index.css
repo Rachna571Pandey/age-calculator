@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.background{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsBtC4-m8DnE4ZJkd-xdMZsJ3RMxv1RHLUXg&usqp=CAU");
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.container{
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: rgb(54, 37, 37);
+    color: white;
+    border-radius: 60px;
+  
+}
+.inputs{
+    padding: 50px;
+    display: flex;
+    padding-left: 150px;
+    font-size: 40px;
+}
+#birth-date{
+    padding-right: 10px;
+}
+#btn{
+    margin-left: 50px;
+    background-color:white;
+    color: black;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+}
+#btn:hover{
+    background-color: green;
+    color: black;
+}
+.outputs{
+    display: flex;
+    margin: 100px;
+    
+}
+p{
+    width: 110px;
+    height: 50px;
+    background-color: brown;
+    margin: 30px;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
